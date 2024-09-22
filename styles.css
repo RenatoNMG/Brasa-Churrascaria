@@ -14,6 +14,7 @@ header{
 }
 header h1{
     padding-bottom: 20px;
+    
 }
 
 header div ul li{
@@ -34,14 +35,17 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+
     
 }
 main {
     margin: 10px;
-    padding: 10px;
-    
+    padding: 60px;
+    text-align: left
 }
-
+main div h2{
+    color: rgb(2, 2, 113);
+}
 
 
 main div table{
@@ -51,16 +55,12 @@ main div table{
   background-color: rgba(63, 42, 42, 0.103);
     
 }
-
 img{
-    width: 50%;
+    width: 60%;
     padding: 5px;
     border-radius: 10px;
 
 }
-
-
-
 aside div h2{
     padding: 10px;
 }
@@ -68,12 +68,16 @@ main h2{
     padding-bottom: 20px;
     color: rgb(0, 0, 0);
     text-align: center;
+    
 }
 aside{
     margin: 100px;
     padding: 20px;
     left: 0;
-    
+   
+}
+aside div h2{
+    color: rgb(2, 2, 113);
 }
 aside div table tr td img{
     margin: 0;
@@ -81,8 +85,53 @@ aside div table tr td img{
     width: 90%;
 
 
+
 }
 aside div table{
     margin: 0;
     
 }
+.churras{
+    border: 2px solid black;
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+   
+   
+}
+.churras table tr td{
+    border: 2px solid black;
+    margin: 0px;
+    text-align: center;
+   
+}
+.churras table{
+    
+    
+
+}
+.churras {
+    width: 100%;
+
+
+
+}
+.cardapio{
+   border: 2px solid black;
+
+ 
+}
+.cardapio tr td{
+    
+    border: 1px solid black;
+}
+.cardapio tr td img{
+    width: 15%;
+
+}
+.textealin{
+    text-align: center;
+
+}
+
